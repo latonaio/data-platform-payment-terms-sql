@@ -1,6 +1,6 @@
 LOCK TABLES `data_platform_payment_terms_payment_terms_data` WRITE;
 
-INSERT INTO `data_platform_payment_terms_payment_terms_data` (`PaymentTerms`, `DueDate`, `BaseDateCalcFixedDate`, `BaseDateCalcAddMonth`, `PaymentDateCalcFixedDate`, `PaymentDateAddMonth`)
+INSERT INTO `data_platform_payment_terms_payment_terms_data` (`PaymentTerms`, `BaseDate`, `BaseDateCalcFixedDate`, `BaseDateCalcAddMonth`, `PaymentDueDateCalcFixedDate`, `PaymentDueDateAddMonth`)
 VALUES
     ('0001', '31', '31', '0', '31', '1')
     ('0002', '31', '31', '0', '31', '2')
