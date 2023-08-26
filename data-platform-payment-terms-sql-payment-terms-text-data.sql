@@ -2,7 +2,7 @@ CREATE TABLE `data_platform_payment_terms_payment_terms_text_data`
 (
   `PaymentTerms`              varchar(4) NOT NULL,
   `Language`                  varchar(2) NOT NULL,
-  `PaymentTermsName`          varchar(100) NOT NULL,
+  `PaymentTermsName`          varchar(200) NOT NULL,
   `CreationDate`              date NOT NULL,
   `LastChangeDate`            date NOT NULL,
   `IsMarkedForDeletion`       tinyint(1) DEFAULT NULL,
